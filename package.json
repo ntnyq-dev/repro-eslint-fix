@@ -1,0 +1,13 @@
+{
+  "name": "repro-eslint-fix",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.11.2",
+    "eslint": "^9.16.0",
+    "eslint-plugin-format": "^0.1.3"
+  }
+}
